@@ -1,0 +1,12 @@
+C:\Users\Victor Cordero\Source\Repos\AppBiomasa\AppBiomasa\bin\Debug\AppBiomasa.exe.config
+C:\Users\Victor Cordero\Source\Repos\AppBiomasa\AppBiomasa\bin\Debug\AppBiomasa.exe
+C:\Users\Victor Cordero\Source\Repos\AppBiomasa\AppBiomasa\bin\Debug\AppBiomasa.pdb
+C:\Users\Victor Cordero\Source\Repos\AppBiomasa\AppBiomasa\obj\Debug\AppBiomasa.csprojResolveAssemblyReference.cache
+C:\Users\Victor Cordero\Source\Repos\AppBiomasa\AppBiomasa\obj\Debug\AppBiomasa.FrmJuego.resources
+C:\Users\Victor Cordero\Source\Repos\AppBiomasa\AppBiomasa\obj\Debug\AppBiomasa.FrmResumen.resources
+C:\Users\Victor Cordero\Source\Repos\AppBiomasa\AppBiomasa\obj\Debug\AppBiomasa.Properties.Resources.resources
+C:\Users\Victor Cordero\Source\Repos\AppBiomasa\AppBiomasa\obj\Debug\AppBiomasa.csproj.GenerateResource.Cache
+C:\Users\Victor Cordero\Source\Repos\AppBiomasa\AppBiomasa\obj\Debug\AppBiomasa.csproj.CoreCompileInputs.cache
+C:\Users\Victor Cordero\Source\Repos\AppBiomasa\AppBiomasa\obj\Debug\AppBiomasa.exe
+C:\Users\Victor Cordero\Source\Repos\AppBiomasa\AppBiomasa\obj\Debug\AppBiomasa.pdb
+C:\Users\Victor Cordero\Source\Repos\AppBiomasa\AppBiomasa\obj\Debug\AppBiomasa.FrmInicio.resources
