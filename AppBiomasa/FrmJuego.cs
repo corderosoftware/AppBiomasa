@@ -23,6 +23,7 @@ namespace AppBiomasa
         int ValorInsumo;
         int muestraToxico;
         string Negativo = "";
+        int ValorProgressBar = 0;
         Random rnd = new Random();
         public FrmJuego()
         {
@@ -48,13 +49,22 @@ namespace AppBiomasa
             lblVegetal.Text = valorVegetal.ToString() + " %";
         }
 
+        private void RefreshImage()
+        {
+            Img1.Image = null;
+            Img2.Image = null;
+            Img3.Image = null;
+        }
+
         private void CambiarImagenValor()
         {
-                CasoToxico = rnd.Next(1, 100); 
+             
                 Insumo = rnd.Next(1, 4); //Aleatorio Insumo
                 ImgInsumo = rnd.Next(1, 5); //Aleatorio Imagen Insumo
                 ValorInsumo = 10; //Valor Insumo
 
+                CasoToxico = rnd.Next(1, 100);
+                Negativo = "";
                 Negativo = CasoToxico > 20 ? "Negativo" : "toxico";
 
             switch (Insumo)
@@ -65,7 +75,7 @@ namespace AppBiomasa
                     Img2.Image = Image.FromFile(pathImg + "Neutro" + ImgInsumo + ".png");
                     Img2.Tag = ValorInsumo;
                     Img3.Image = Image.FromFile(pathImg + Negativo + ImgInsumo + ".png");
-                        Img3.Tag = 0;
+                    Img3.Tag = 0;
                     valorVegetal += ValorInsumo;
                         break;
                     case 2: //Liquido
@@ -120,21 +130,26 @@ namespace AppBiomasa
 
         private void ImgCombustible_Click(object sender, EventArgs e)
         {
-            if (Negativo != "toxico")
+            if (int.Parse(Img1.Tag.ToString()) == 0 && Negativo == "toxico")
             {
-                //Random rnd = new Random();
-                //valorVegetal += rnd.Next();
-                //lblVegetal.Text = valorVegetal.ToString() + "lt";
-                CambiarImagenValor();
-                MuestraInsumos();
-                progressBar1.Value += int.Parse(Img1.Tag.ToString());
+                JuegoPerdido();
             }
             else
             {
-                JurgoPerdido();
+                ActualizarProgressBar(int.Parse(Img1.Tag.ToString()));
+                RefreshImage();
+                CambiarImagenValor();
+                MuestraInsumos();
             }
          
            
+        }
+
+        public void ActualizarProgressBar(int valor)
+        {
+            ValorProgressBar = progressBar1.Value;
+            ValorProgressBar += valor;
+            progressBar1.Value = ValorProgressBar > 100 ? 100 : ValorProgressBar;
         }
 
         private void pictureBox4_Click(object sender, EventArgs e)
@@ -159,33 +174,35 @@ namespace AppBiomasa
 
         private void Img2_Click(object sender, EventArgs e)
         {
-            if (Negativo != "toxico")
+            if (int.Parse(Img2.Tag.ToString()) == 0 && Negativo == "toxico")
             {
-                CambiarImagenValor();
-                MuestraInsumos();
-                progressBar1.Value += int.Parse(Img2.Tag.ToString());
+                JuegoPerdido();
             }
             else
             {
-                JurgoPerdido();
+                ActualizarProgressBar(int.Parse(Img2.Tag.ToString()));
+                RefreshImage();
+                CambiarImagenValor();
+                MuestraInsumos();
             }
         }
 
         private void Img3_Click(object sender, EventArgs e)
         {
-            if (Negativo != "toxico")
+            if (int.Parse(Img3.Tag.ToString()) == 0 && Negativo == "toxico")
             {
-                CambiarImagenValor();
-                MuestraInsumos();
-                progressBar1.Value += int.Parse(Img3.Tag.ToString());
+                JuegoPerdido();
             }
             else
             {
-                JurgoPerdido();
+                ActualizarProgressBar(int.Parse(Img3.Tag.ToString()));
+                RefreshImage();
+                CambiarImagenValor();
+                MuestraInsumos();
             }
         }
 
-        public void JurgoPerdido()
+        public void JuegoPerdido()
         {
             timer1.Enabled = false;
             timer1.Dispose();

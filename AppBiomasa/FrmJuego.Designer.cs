@@ -72,9 +72,9 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(338, 109);
+            this.pictureBox2.Location = new System.Drawing.Point(306, 108);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(130, 128);
+            this.pictureBox2.Size = new System.Drawing.Size(97, 128);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
@@ -83,7 +83,7 @@
             // lblAgua
             // 
             this.lblAgua.AutoSize = true;
-            this.lblAgua.Location = new System.Drawing.Point(384, 92);
+            this.lblAgua.Location = new System.Drawing.Point(347, 92);
             this.lblAgua.Name = "lblAgua";
             this.lblAgua.Size = new System.Drawing.Size(33, 13);
             this.lblAgua.TabIndex = 2;
@@ -92,7 +92,7 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(56, 108);
+            this.pictureBox3.Location = new System.Drawing.Point(98, 108);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(128, 128);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -102,7 +102,7 @@
             // lblVegetal
             // 
             this.lblVegetal.AutoSize = true;
-            this.lblVegetal.Location = new System.Drawing.Point(106, 92);
+            this.lblVegetal.Location = new System.Drawing.Point(153, 92);
             this.lblVegetal.Name = "lblVegetal";
             this.lblVegetal.Size = new System.Drawing.Size(21, 13);
             this.lblVegetal.TabIndex = 5;
