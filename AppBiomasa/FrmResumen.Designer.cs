@@ -35,9 +35,10 @@
             this.btnUrl = new System.Windows.Forms.Button();
             this.panelWeb = new System.Windows.Forms.Panel();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.radioButton3 = new System.Windows.Forms.RadioButton();
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
+            this.btnDatos = new System.Windows.Forms.Button();
             this.panelWeb.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -96,12 +97,24 @@
             this.groupBox1.Controls.Add(this.radioButton3);
             this.groupBox1.Controls.Add(this.radioButton2);
             this.groupBox1.Controls.Add(this.radioButton1);
-            this.groupBox1.Location = new System.Drawing.Point(144, 547);
+            this.groupBox1.Location = new System.Drawing.Point(12, 547);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(315, 63);
             this.groupBox1.TabIndex = 7;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Contenido";
+            // 
+            // radioButton3
+            // 
+            this.radioButton3.AutoSize = true;
+            this.radioButton3.Checked = true;
+            this.radioButton3.Location = new System.Drawing.Point(215, 31);
+            this.radioButton3.Name = "radioButton3";
+            this.radioButton3.Size = new System.Drawing.Size(48, 17);
+            this.radioButton3.TabIndex = 8;
+            this.radioButton3.TabStop = true;
+            this.radioButton3.Text = "Web";
+            this.radioButton3.UseVisualStyleBackColor = true;
             // 
             // radioButton2
             // 
@@ -123,23 +136,23 @@
             this.radioButton1.Text = "Imagen";
             this.radioButton1.UseVisualStyleBackColor = true;
             // 
-            // radioButton3
+            // btnDatos
             // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Checked = true;
-            this.radioButton3.Location = new System.Drawing.Point(215, 31);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(48, 17);
-            this.radioButton3.TabIndex = 8;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "Web";
-            this.radioButton3.UseVisualStyleBackColor = true;
+            this.btnDatos.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnDatos.Location = new System.Drawing.Point(526, 556);
+            this.btnDatos.Name = "btnDatos";
+            this.btnDatos.Size = new System.Drawing.Size(286, 54);
+            this.btnDatos.TabIndex = 8;
+            this.btnDatos.Text = "Datos de Nuestro Biodigestor";
+            this.btnDatos.UseVisualStyleBackColor = true;
+            this.btnDatos.Click += new System.EventHandler(this.btnDatos_Click);
             // 
             // FrmResumen
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1142, 622);
+            this.ClientSize = new System.Drawing.Size(1220, 622);
+            this.Controls.Add(this.btnDatos);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.panelWeb);
             this.Controls.Add(this.btnFin);
@@ -164,5 +177,6 @@
         private System.Windows.Forms.RadioButton radioButton3;
         private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.Button btnDatos;
     }
 }

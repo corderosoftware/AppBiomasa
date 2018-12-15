@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -53,5 +54,13 @@ namespace AppBiomasa
         {
             Application.Exit();
         }
+
+        private void btnDatos_Click(object sender, EventArgs e)
+        {
+            FrmDatos datos = new FrmDatos();
+            datos.Show();
+            
+        }
+
     }
 }
