@@ -10,3 +10,8 @@ C:\Users\Victor Cordero\Source\Repos\AppBiomasa\AppBiomasa\obj\Debug\AppBiomasa.
 C:\Users\Victor Cordero\Source\Repos\AppBiomasa\AppBiomasa\obj\Debug\AppBiomasa.exe
 C:\Users\Victor Cordero\Source\Repos\AppBiomasa\AppBiomasa\obj\Debug\AppBiomasa.pdb
 C:\Users\Victor Cordero\Source\Repos\AppBiomasa\AppBiomasa\obj\Debug\AppBiomasa.FrmInicio.resources
+C:\Users\Victor Cordero\Source\Repos\AppBiomasa\AppBiomasa\bin\Debug\Interop.WMPLib.dll
+C:\Users\Victor Cordero\Source\Repos\AppBiomasa\AppBiomasa\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Victor Cordero\Source\Repos\AppBiomasa\AppBiomasa\obj\Debug\Interop.WMPLib.dll
+C:\Users\Victor Cordero\Source\Repos\AppBiomasa\AppBiomasa\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Victor Cordero\Source\Repos\AppBiomasa\AppBiomasa\obj\Debug\AppBiomasa.csproj.ResolveComReference.cache
