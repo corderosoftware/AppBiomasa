@@ -71,9 +71,9 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(338, 109);
+            this.pictureBox2.Location = new System.Drawing.Point(341, 127);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(130, 128);
+            this.pictureBox2.Size = new System.Drawing.Size(78, 109);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
@@ -82,7 +82,7 @@
             // lblAgua
             // 
             this.lblAgua.AutoSize = true;
-            this.lblAgua.Location = new System.Drawing.Point(384, 92);
+            this.lblAgua.Location = new System.Drawing.Point(365, 92);
             this.lblAgua.Name = "lblAgua";
             this.lblAgua.Size = new System.Drawing.Size(33, 13);
             this.lblAgua.TabIndex = 2;
@@ -91,9 +91,9 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(56, 108);
+            this.pictureBox3.Location = new System.Drawing.Point(110, 127);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(128, 128);
+            this.pictureBox3.Size = new System.Drawing.Size(106, 109);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 4;
             this.pictureBox3.TabStop = false;
@@ -101,7 +101,7 @@
             // lblVegetal
             // 
             this.lblVegetal.AutoSize = true;
-            this.lblVegetal.Location = new System.Drawing.Point(106, 92);
+            this.lblVegetal.Location = new System.Drawing.Point(154, 92);
             this.lblVegetal.Name = "lblVegetal";
             this.lblVegetal.Size = new System.Drawing.Size(21, 13);
             this.lblVegetal.TabIndex = 5;
@@ -113,7 +113,7 @@
             this.btnReiniciar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReiniciar.Image = ((System.Drawing.Image)(resources.GetObject("btnReiniciar.Image")));
             this.btnReiniciar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnReiniciar.Location = new System.Drawing.Point(556, 24);
+            this.btnReiniciar.Location = new System.Drawing.Point(633, 54);
             this.btnReiniciar.Name = "btnReiniciar";
             this.btnReiniciar.Size = new System.Drawing.Size(154, 53);
             this.btnReiniciar.TabIndex = 6;
@@ -136,7 +136,7 @@
             this.panelContainer.Dock = System.Windows.Forms.DockStyle.Right;
             this.panelContainer.Location = new System.Drawing.Point(896, 0);
             this.panelContainer.Name = "panelContainer";
-            this.panelContainer.Size = new System.Drawing.Size(358, 535);
+            this.panelContainer.Size = new System.Drawing.Size(358, 610);
             this.panelContainer.TabIndex = 10;
             // 
             // Img3
@@ -193,13 +193,13 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(530, 535);
+            this.panel1.Size = new System.Drawing.Size(530, 610);
             this.panel1.TabIndex = 16;
             // 
             // pictureLlama
             // 
             this.pictureLlama.Image = ((System.Drawing.Image)(resources.GetObject("pictureLlama.Image")));
-            this.pictureLlama.Location = new System.Drawing.Point(600, 136);
+            this.pictureLlama.Location = new System.Drawing.Point(611, 129);
             this.pictureLlama.Name = "pictureLlama";
             this.pictureLlama.Size = new System.Drawing.Size(201, 165);
             this.pictureLlama.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -209,7 +209,7 @@
             // pictureBox5
             // 
             this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(600, 298);
+            this.pictureBox5.Location = new System.Drawing.Point(611, 298);
             this.pictureBox5.Name = "pictureBox5";
             this.pictureBox5.Size = new System.Drawing.Size(201, 180);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -221,7 +221,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1254, 535);
+            this.ClientSize = new System.Drawing.Size(1254, 610);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureLlama);
             this.Controls.Add(this.panel1);
