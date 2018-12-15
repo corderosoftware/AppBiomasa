@@ -15,12 +15,31 @@ namespace AppBiomasa
         public FrmInicio()
         {
             InitializeComponent();
+            axWindowsMediaPlayer1.Ctlcontrols.stop();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
             FrmJuego suguiente = new FrmJuego();
             suguiente.Show();
+            this.Hide();
+        }
+
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+            
+                pictureImagen.Visible = true;
+                axWindowsMediaPlayer1.Visible = false;
+                axWindowsMediaPlayer1.Ctlcontrols.stop();
+
+        }
+
+        private void radioButton2_CheckedChanged(object sender, EventArgs e)
+        {
+            
+                axWindowsMediaPlayer1.Visible = true;
+                pictureImagen.Visible = false;
+            
         }
     }
 }

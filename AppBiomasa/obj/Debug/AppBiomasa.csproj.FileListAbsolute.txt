@@ -10,6 +10,7 @@ C:\Users\Victor Cordero\Source\Repos\AppBiomasa\AppBiomasa\obj\Debug\AppBiomasa.
 C:\Users\Victor Cordero\Source\Repos\AppBiomasa\AppBiomasa\obj\Debug\AppBiomasa.exe
 C:\Users\Victor Cordero\Source\Repos\AppBiomasa\AppBiomasa\obj\Debug\AppBiomasa.pdb
 C:\Users\Victor Cordero\Source\Repos\AppBiomasa\AppBiomasa\obj\Debug\AppBiomasa.FrmInicio.resources
+<<<<<<< HEAD
 C:\Users\xh145qa\Documents\appbiomasa\AppBiomasa\bin\Debug\AppBiomasa.exe.config
 C:\Users\xh145qa\Documents\appbiomasa\AppBiomasa\bin\Debug\AppBiomasa.exe
 C:\Users\xh145qa\Documents\appbiomasa\AppBiomasa\bin\Debug\AppBiomasa.pdb
@@ -22,3 +23,10 @@ C:\Users\xh145qa\Documents\appbiomasa\AppBiomasa\obj\Debug\AppBiomasa.csproj.Cor
 C:\Users\xh145qa\Documents\appbiomasa\AppBiomasa\obj\Debug\AppBiomasa.exe
 C:\Users\xh145qa\Documents\appbiomasa\AppBiomasa\obj\Debug\AppBiomasa.pdb
 C:\Users\xh145qa\Documents\appbiomasa\AppBiomasa\obj\Debug\AppBiomasa.csprojAssemblyReference.cache
+=======
+C:\Users\Victor Cordero\Source\Repos\AppBiomasa\AppBiomasa\bin\Debug\Interop.WMPLib.dll
+C:\Users\Victor Cordero\Source\Repos\AppBiomasa\AppBiomasa\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Victor Cordero\Source\Repos\AppBiomasa\AppBiomasa\obj\Debug\Interop.WMPLib.dll
+C:\Users\Victor Cordero\Source\Repos\AppBiomasa\AppBiomasa\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Victor Cordero\Source\Repos\AppBiomasa\AppBiomasa\obj\Debug\AppBiomasa.csproj.ResolveComReference.cache
+>>>>>>> 13a9519f527a0d04348e5768d2813f27ad99139a

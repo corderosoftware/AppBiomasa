@@ -117,13 +117,36 @@
     <Content Include="Imagenes\Neutro4.png" />
     <Content Include="Imagenes\organic.jpg" />
     <Content Include="Imagenes\organic2.jpg" />
+    <Content Include="Imagenes\play.png" />
     <Content Include="Imagenes\quimico1.png" />
     <Content Include="Imagenes\reset.png" />
+    <Content Include="Imagenes\resumen.png" />
+    <Content Include="Imagenes\stop.png" />
     <Content Include="Imagenes\toxico1.png" />
     <Content Include="Imagenes\toxico2.png" />
     <Content Include="Imagenes\toxico3.png" />
     <Content Include="Imagenes\toxico4.png" />
     <Content Include="Imagenes\una-energia-renovable.png" />
+    <Content Include="Videos\biomasa.mp4" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

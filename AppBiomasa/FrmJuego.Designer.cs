@@ -45,6 +45,7 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.pictureLlama = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.btnResumen = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -115,7 +116,7 @@
             this.btnReiniciar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnReiniciar.Location = new System.Drawing.Point(633, 54);
             this.btnReiniciar.Name = "btnReiniciar";
-            this.btnReiniciar.Size = new System.Drawing.Size(154, 53);
+            this.btnReiniciar.Size = new System.Drawing.Size(154, 70);
             this.btnReiniciar.TabIndex = 6;
             this.btnReiniciar.Text = "Reiniciar";
             this.btnReiniciar.UseVisualStyleBackColor = true;
@@ -216,12 +217,31 @@
             this.pictureBox5.TabIndex = 18;
             this.pictureBox5.TabStop = false;
             // 
+            // btnResumen
+            // 
+            this.btnResumen.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnResumen.Image = ((System.Drawing.Image)(resources.GetObject("btnResumen.Image")));
+            this.btnResumen.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnResumen.Location = new System.Drawing.Point(716, 24);
+            this.btnResumen.Name = "btnResumen";
+            this.btnResumen.Size = new System.Drawing.Size(159, 70);
+            this.btnResumen.TabIndex = 19;
+            this.btnResumen.Text = "Resumen";
+            this.btnResumen.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.btnResumen.UseVisualStyleBackColor = true;
+            this.btnResumen.Click += new System.EventHandler(this.btnResumen_Click);
+            // 
             // FrmJuego
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+<<<<<<< HEAD
             this.ClientSize = new System.Drawing.Size(1254, 610);
+=======
+            this.ClientSize = new System.Drawing.Size(1254, 535);
+            this.Controls.Add(this.btnResumen);
+>>>>>>> 13a9519f527a0d04348e5768d2813f27ad99139a
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureLlama);
             this.Controls.Add(this.panel1);
@@ -262,5 +282,6 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.PictureBox pictureLlama;
         private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.Button btnResumen;
     }
 }

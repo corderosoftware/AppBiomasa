@@ -224,5 +224,12 @@ namespace AppBiomasa
             pictureLlama.Visible = false;
             MessageBox.Show("Se pudre todo");
         }
+
+        private void btnResumen_Click(object sender, EventArgs e)
+        {
+            FrmResumen resumen = new FrmResumen();
+            resumen.Show();
+            this.Close();
+        }
     }
 }
